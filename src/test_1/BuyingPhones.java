@@ -11,9 +11,9 @@ public class BuyingPhones {
 		double price2=price/2;
 		System.out.println("regular price for phoneprice  " +price);
 		System.out.println(" no. of phones is 3");
-		System.out.println(" phone 1: "+price);
-		System.out.println(" phone 2: "+price);
-		System.out.println(" phone 3: "+price2);
+		System.out.println(" phone 1:- "+price);
+		System.out.println(" phone 2:- "+price);
+		System.out.println(" phone 3:- "+price2);
 	}
 
 }
