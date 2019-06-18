@@ -12,10 +12,27 @@ public class Rabbit {
 		// -----------
 		// CONSTRUCTOR 
 		// ------------
-		public Rabbit() {
-
+		public Rabbit(int xPosition,int yPosition) {
+          xPosition= 2;
+           yPosition =2;
 		}
 		
+		public int getxPosition() {
+			return xPosition;
+		}
+
+		public void setxPosition(int xPosition) {
+			this.xPosition = xPosition;
+		}
+
+		public int getyPosition() {
+			return yPosition;
+		}
+
+		public void setyPosition(int yPosition) {
+			this.yPosition = yPosition;
+		}
+
 		// -----------
 		// METHODS 
 		// ------------
@@ -26,11 +43,12 @@ public class Rabbit {
 		public void sayHello() {
 			System.out.println("Hello! I am a rabbit!");
 		}
-		
+	
+		}
 		// ----------------
 		// ACCESSOR METHODS
 		// ----------------
 		
 		// Put all your accessor methods in this section.
 
-}
+

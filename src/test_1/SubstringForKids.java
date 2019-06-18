@@ -7,12 +7,22 @@ public class SubstringForKids {
 		System.out.println("SUBSTRING FOR KIDS");
 		
 		
-		
+		substringForKids(1,2,"harman");
 		
 
 	}
 	
-	public String substringForKids() {
+	public static String substringForKids(int i,int j,String sentence) {
+		
+		String[] arr={"harman"};
+		System.out.println(arr.length);
+		
+		
+		
+		
+		
+		
+		
 		return "";
 	}
 	
