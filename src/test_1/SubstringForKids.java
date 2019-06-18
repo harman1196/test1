@@ -7,23 +7,38 @@ public class SubstringForKids {
 		System.out.println("SUBSTRING FOR KIDS");
 		
 		
-		substringForKids(1,2,"harman");
-		
+		String output=substringForKids(1,1,"harman");
+		System.out.println(output);
+
+		String out=substringForKids(1,4,"harman");
+		System.out.println(out);
 
 	}
 	
 	public static String substringForKids(int i,int j,String sentence) {
-		
-		String[] arr={"harman"};
-		System.out.println(arr.length);
-		
-		
-		
-		
-		
-		
-		
-		return "";
+		String substring ="";
+		String invalid ="invalid input";
+		for(int a=i;a<=j;a++){
+			if (i==j){
+				substring=substring+sentence.charAt(a);
+				
+				
+			}
+			
+			else if(i<j){
+				substring=substring+sentence.charAt(a);
+				
+			}
+			
+			else if(i>j ||i<0){
+				return invalid;
+			}
+			
+			
+			
+			}
+	
+		return substring;
 	}
 	
 
